@@ -1,0 +1,8 @@
+﻿
+@{
+    ViewBag.Title = "LatestImage";
+}
+
+<h2>LatestImage</h2>
+<input type="button" value="Back" onclick="window.location.href='@Url.Action("Upload","Image")'"/>
+<img src = "@ViewBag.LatestImage" title = "Latest Uploaded" /> 
